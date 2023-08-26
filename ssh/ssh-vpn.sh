@@ -318,8 +318,7 @@ wget -O acs-set "https://raw.githubusercontent.com/bosqu93/v5/main/acs-set.sh"
 wget -O sshws "https://raw.githubusercontent.com/bosqu93/v5/main/ssh/sshws.sh"
 wget -O status "https://raw.githubusercontent.com/bosqu93/v5/main/status.sh"
 wget -O menu-bckp "https://raw.githubusercontent.com/bosqu93/v5/main/menu/menu-bckp.sh"
-wget -O backup "https://raw.githubusercontent.com/bosqu93/v5/main/backup/backup.sh"
-wget -O restore "https://raw.githubusercontent.com/bosqu93/v5/main/backup/restore.sh"
+wget -O menu-backup "https://raw.githubusercontent.com/bosqu93/v5/main/menu/menu-backup.sh"
 wget -O jam "https://raw.githubusercontent.com/bosqu93/v5/main/jam.sh"
 wget -O add-vmess "https://raw.githubusercontent.com/bosqu93/v5/main/xray/add-vmess.sh"
 wget -O trialvmess "https://raw.githubusercontent.com/bosqu93/v5/main/xray/trialvmess.sh"
@@ -396,9 +395,7 @@ chmod +x acs-set
 chmod +x sshws
 chmod +x status
 chmod +x menu-bckp
-chmod +x backup
-chmod +x restore
-chmod +x jam
+chmod +x menu-backup
 chmod +x add-vmess
 chmod +x trialvmess
 chmod +x renew-vmess
