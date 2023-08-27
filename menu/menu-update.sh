@@ -89,12 +89,6 @@ clear
 echo -e "\e[0;32mGetting New Version Script..\e[0m"
 sleep 1
 echo ""
-#Install Backup 
-clear
-wget https://raw.githubusercontent.com/bosqu93/backup/main/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
-clear
-sleep 1
-echo ""
 rm -rf update
 rm -rf menu-update
 rm -rf menu
@@ -245,6 +239,8 @@ wget -O del-tr "https://raw.githubusercontent.com/bosqu93/v5/main/xray/del-tr.sh
 wget -O cek-tr "https://raw.githubusercontent.com/bosqu93/v5/main/xray/cek-tr.sh"
 wget -O del-ssws "https://raw.githubusercontent.com/bosqu93/v5/main/xray/del-ssws.sh"
 wget -O renew-ssws "https://raw.githubusercontent.com/bosqu93/v5/main/xray/renew-ssws.sh"
+wget -O backup "https://raw.githubusercontent.com/bosqu93/backup/main/backup.sh"
+wget -O restore "https://raw.githubusercontent.com/bosqu93/backup/main/restore.sh"
 
 chmod +x menu-update
 chmod +x update
