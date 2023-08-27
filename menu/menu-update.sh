@@ -89,6 +89,12 @@ clear
 echo -e "\e[0;32mGetting New Version Script..\e[0m"
 sleep 1
 echo ""
+#Install Backup 
+clear
+wget https://raw.githubusercontent.com/bosqu93/backup/main/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
+clear
+sleep 1
+echo ""
 rm -rf update
 rm -rf menu-update
 rm -rf menu
