@@ -161,9 +161,6 @@ rm tools.sh
 clear
 wget -q https://raw.githubusercontent.com/bosqu93/v5/main/api.sh;chmod +x api.sh;./api.sh
 clear
-wget -q https://raw.githubusercontent.com/bosqu93/v5/main/ssh/bosqu93;chmod +x bosqu93;./bosqu93
-rm bosqu93
-clear
 yellow "Add Domain for vmess/vless/trojan dll"
 echo " "
 echo -e "$green      Please select a domain type below               $NC"
@@ -278,8 +275,11 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 2
 clear
 wget -q https://raw.githubusercontent.com/bosqu93/v5/main/ssh/limit.sh;chmod +x limit.sh;./limit.sh
-sleep 3
+sleep 1
+wget -q https://raw.githubusercontent.com/bosqu93/v5/main/ssh/bosqu93;chmod +x bosqu93;./bosqu93
+rm bosqu93
 clear
+
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
 
